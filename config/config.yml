@@ -177,7 +177,7 @@ model:
 
   # Tool format, e.g. 'qwen3_coder'. See docs for supported formats. If left blank,
   # tool calls from the model will not be parsed by the server.
-  tool_format:
+  tool_format: qwen3_coder
 
 # Options for draft models (speculative decoding)
 # This will use more VRAM!
