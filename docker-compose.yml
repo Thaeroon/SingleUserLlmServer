@@ -15,7 +15,7 @@ services:
       - NAME=TabbyAPI
       - NVIDIA_VISIBLE_DEVICES=all
     volumes:
-      - ./models/Qwen3.6-27B-exl3-4.15bpw:/app/models/Qwen3.6-27B-exl3-4.15bpw:ro
+      - ./models/Qwen3.8-27B-exl3-SC_4.00bpw_H5_V6:/app/models/Qwen3.8-27B-exl3-4.15bpw:ro
       - ./config/config.yml:/app/config.yml:ro
       - ./config/api_tokens.yml:/app/api_tokens.yml
 
